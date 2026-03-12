@@ -56,6 +56,6 @@ export async function submitInquiry(inquiryData) {
   const whatsappMessage = encodeURIComponent(
     `Hi TourCrafts! I'm ${name}.\n\nI'm interested in: ${packageTitle || 'your travel packages'}\n\nMessage: ${message}`
   );
-  const whatsappUrl = `https://wa.me/919876543210?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/918107331777?text=${whatsappMessage}`;
   window.open(whatsappUrl, '_blank');
 }

@@ -8,7 +8,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "mysql+mysqlconnector://root:password@localhost:3306/tourcrafts_db"
+    "mysql+mysqlconnector://root:PASSWORD@localhost:3306/tourcrafts_db"
 )
 
 engine = create_engine(DATABASE_URL, echo=True)

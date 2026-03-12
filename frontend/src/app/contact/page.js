@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: PhoneIcon,
     title: 'Call Us',
-    details: ['+91 98765 43210', '+91 12345 67890'],
+    details: ['+91 81073 31777', '+91 81073 31777'],
   },
   {
     icon: EnvelopeIcon,

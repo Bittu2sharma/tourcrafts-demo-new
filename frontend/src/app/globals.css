@@ -47,6 +47,8 @@ html {
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
   color: var(--dark);
   background-color: var(--white);
   -webkit-font-smoothing: antialiased;
@@ -84,27 +86,33 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Utility Classes */
 .section-padding {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .container-custom {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 32px;
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 800;
   color: var(--dark);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   letter-spacing: -0.02em;
 }
 
+.section-title.text-white {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+}
+
 .section-subtitle {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: var(--gray);
-  max-width: 600px;
+  max-width: 650px;
+  line-height: 1.6;
 }
 
 .gradient-text {
@@ -243,14 +251,18 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive */
 @media (max-width: 768px) {
   .section-padding {
-    padding: 50px 0;
+    padding: 60px 0;
+  }
+  
+  .container-custom {
+    padding: 0 20px;
   }
   
   .section-title {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
   
   .section-subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
